@@ -6,8 +6,8 @@ class Card {
         this.posY = posY;
         this.image = image;
         this.index = index;
-        this.nombre = "";
-        this.precio;
+        this.name = "";
+        this.price;
         this.over = false;
         this.trash1 = loadImage("data/trashS.png");
         this.trash2 = loadImage("data/trashL.png");
@@ -22,8 +22,8 @@ class Card {
         textSize(15);
         textAlign(LEFT);
         fill(0);
-        text(this.nombre,this.posX+20,this.posY+110);
-        text("$"+ this.precio,this.posX+20,this.posY+135);
+        text(this.name,this.posX+20,this.posY+110);
+        text("$"+ this.price,this.posX+20,this.posY+135);
 
         switch(this.index){
 

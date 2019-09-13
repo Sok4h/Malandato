@@ -15,9 +15,9 @@ login(userName,userPassword){
 
 if(userName == this.userName && userPassword == this.userPassword){
     return true;
-}
-return false;
-
+}else{
+    return false;
+}     
 }
 
 
